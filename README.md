@@ -32,13 +32,37 @@ dog_cat_data/
 
 ##  Project Pipeline
 
-###  1. Data Preprocessing
-- Read image files using `cv2`.
-- Resize and normalize pixel values.
+###  Data Preprocessing
+- Resize all images to a fixed dimension (e.g., 128x128 pixels).
+- Normalize pixel values to the range [0, 1] by dividing by 255.
+- Apply data augmentation to reduce overfitting (horizontal flip, zoom, shear, etc.).
 - Encode labels (0: Cat, 1: Dog).
-- Split into training and testing sets.
+- Split the dataset into training and testing sets.
 
 ---
+
+###  Build a CNN using TensorFlow
+- Stack multiple Conv2D layers with ReLU activation and MaxPooling2D layers.
+- Use Dropout and BatchNormalization for regularization.
+- Flatten the output and connect it to Dense layers.
+- The final output layer should use sigmoid activation for binary classification.
+
+---
+
+###  Compile and Train the Model
+- Compile the model with:
+  - Loss: binary_crossentropy
+  - Optimizer: adam
+  - Metrics: accuracy
+- Train the model using model.fit() on training data.
+- Use validation data to monitor model performance after each epoch.
+
+---
+
+###  Evaluate the Model
+- Plot training and validation accuracy/loss curves using matplotlib.
+- Evaluate the model on test data.
+- Optionally, use metrics like accuracy, precision, recall, F1-score.
 
 ### Accuracy
 
