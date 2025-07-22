@@ -40,14 +40,6 @@ dog_cat_data/
 
 ---
 
-## Accuracy
-- Above 90% on validation data
----
-
-## Images
-<img width="1189
-  " height="490" alt="ClassImage" src="https://github.com/user-attachments/assets/761e1140-f507-4562-bd3c-58b4a02a7220" />
-
 ## Author
 
 Buddhadeb Bhattacharya 
