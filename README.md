@@ -8,7 +8,7 @@ This project implements an image classification model using Convolutional Neural
 
 - **Source**: [Dog and Cat Classification Dataset - Kaggle](https://www.kaggle.com/datasets/salader/dog-and-cat-classification-dataset)
 - **Structure**:
-
+```
 dog_cat_data/
 ├── Training/
 │ ├── Dog/
@@ -16,7 +16,7 @@ dog_cat_data/
 └── Testing/
 ├── Dog/
 └── Cat/
-
+```
 
 ---
 
