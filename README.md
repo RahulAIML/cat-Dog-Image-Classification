@@ -40,6 +40,15 @@ dog_cat_data/
 
 ---
 
+### Accuracy
+
+On benchmark data (like MNIST) it is acheiving over 90+ accuracy but with real world data like this one it is around 70%
+I am continuosly improving by using regularization techniques like dropout and by doing normalization.
+
+## Images(On real world data)
+<img width="1189" height="490" alt="ClassImage" src="https://github.com/user-attachments/assets/21c00c7a-99a5-4f0a-95bd-15c3d026058f" />
+
+
 ## Author
 
 Buddhadeb Bhattacharya 
